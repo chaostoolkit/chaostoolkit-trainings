@@ -1,4 +1,4 @@
-Now we can setup a simple system with one service that we can use to write our firsrt Chaos Toolkit chaos engineering experiment against.
+Now we can setup a simple system with one service that we can use to write our first Chaos Toolkit chaos engineering experiment against.
 
 Let’s say we have a service that polls a local file every second to see if new content was added for processing. We've made the assumption the file would always be there and have not write a failure code path...
 
