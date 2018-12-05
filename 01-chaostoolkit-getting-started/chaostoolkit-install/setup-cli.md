@@ -33,7 +33,7 @@ Then we can install the Chaos Toolkit itself by running the following:
 warnings are nothing to worry about and will not prevent those dependencies
 from being installed.
 
-Now, the `chaos` comand should be available:
+Now, the `chaos` command should be available:
 
 `chaos --help`{{execute}}
 

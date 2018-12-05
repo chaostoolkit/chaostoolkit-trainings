@@ -20,14 +20,13 @@ You can specify other environments than Kubernetes for chaos toolkit to discover
 
 When you execute `chaos discover chaostoolkit-kubernetes` you should see an output such as the following:
 
-```
-[2018-01-16 16:59:56 INFO] Attempting to download and install package 'chaostoolkit-kubernetes'
-[2018-01-16 16:59:58 INFO] Package downloaded and installed in current environment
-[2018-01-16 16:59:58 INFO] Discovering capabilities from chaostoolkit-kubernetes
-[2018-01-16 16:59:58 INFO] Searching for actions
-[2018-01-16 16:59:58 INFO] Searching for probes
-[2018-01-16 16:59:58 INFO] Discovering Kubernetes system
-[2018-01-16 16:59:58 INFO] Discovery report saved in ./discovery.json
+``` bash
+[2018-12-05 21:13:32 INFO] Attempting to download and install package 'chaostoolkit-kubernetes'
+[2018-12-05 21:13:47 INFO] Package downloaded and installed in current environment
+[2018-12-05 21:13:47 INFO] Discovering capabilities from chaostoolkit-kubernetes
+[2018-12-05 21:13:47 INFO] Searching for actions
+[2018-12-05 21:13:47 INFO] Searching for probes
+[2018-12-05 21:13:47 INFO] Discovery outcome saved in ./discovery.json
 ```
 
 Note the `Discovery report saved in ./discovery.json` message. Depending on the target environment the `chaos discover` command can result in a large amount of information about what can be done or probed in your chaos experiments. In the next tutorial you will see how you can use `chaos discover` in combination with `chaos init` to build your own Chaos Toolkit experiments quickly.
