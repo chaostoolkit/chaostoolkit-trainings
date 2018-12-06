@@ -19,8 +19,8 @@ When your run your experiment the following information should be reported:
 
 As you should see, the experimental output states that there was a detected weakness as there was a deviance from your Steady State Hypothesis when it was assessed after the experiment's method had completed executing:
 
-```
-[2018-01-05 17:04:20 CRITICAL] Steady state probe 'exchange-file-exists' is not in the given tolerance so failing this experiment
+``` bash
+[2018-12-06 16:35:27 CRITICAL] Steady state probe 'service-is-unavailable' is not in the given tolerance so failing this experiment
 ```
 
 Before moving on, kill your poorly performing service by hitting `CNTRL-C` a few times in the terminal window that is running the service so that it returns to the command prompt.
