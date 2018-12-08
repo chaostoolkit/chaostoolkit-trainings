@@ -1,6 +1,6 @@
 At this point you would usually run a chaos experiment to produce a report, but for this tutorial we're only interested in the final step of the `discover`->`init`->`run`->`report` workflow in Chaos Tool,it so instead we'll create a representative output from the `chaos run` command that you can then use to report on.
 
-The contents of the output from the `chaos run` command will be the following. Copy this into the `chaos-report.json` file so you can then use it:
+The contents of the output from the `chaos run` command will be the following. Create the `chaos-report.json` file with the following content or grab it (instructions after the file).
 
 <pre class="file">
 {

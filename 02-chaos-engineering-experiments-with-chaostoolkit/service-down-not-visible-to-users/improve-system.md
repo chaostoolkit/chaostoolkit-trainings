@@ -24,5 +24,5 @@ Once the service is responding healthily you can re-run your experiment to verif
 
 `chaos run experiment.json`{{execute}}
 
-Your're done! You now have an automated chaos engineering experiment that you can run as often as you like to ensure that this, and potentially other, weakness are not introduced into your system.
+You're done! You now have an automated chaos engineering experiment that you can run as often as you like to ensure that this, and potentially other, weakness are not introduced into your system.
 
