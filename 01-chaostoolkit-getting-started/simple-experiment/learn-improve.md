@@ -60,7 +60,7 @@ if __name__ == '__main__':
         t.join(timeout=1)
 </pre>
 
-Now run your service again from its own terminal window by executing:
+Now run your service **again from its own terminal window** by executing:
 
  `python3 service.py`{{execute}}
 
