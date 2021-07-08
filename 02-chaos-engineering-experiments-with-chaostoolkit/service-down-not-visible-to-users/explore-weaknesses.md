@@ -4,7 +4,7 @@ On such common weakness is a Cascading Failure. This is where the failure of a d
 
 To explore this type of weakness you already have an experiment that looks for it in your two-service system in the `experiment.json` file:
 
-```
+```json
 {
     "version": "1.0.0",
     "title": "System is resilient to provider's failures",
@@ -82,7 +82,7 @@ Finally you can run your chaos experiment:
 When you run this experiment with the existing system you should see something 
 like the following:
 
-```
+```bash
 [2018-01-05 19:50:29 INFO] Validating experiment's syntax
 [2018-01-05 19:50:31 INFO] Experiment looks valid
 [2018-01-05 19:50:31 INFO] Running experiment: System is resilient to provider's failures
